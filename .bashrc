@@ -42,6 +42,8 @@ export EDITOR=/usr/bin/nvim
 export HISTSIZE=1000000
 export HISTFILESIZE=1000000000
 
+export PAGER="less"
+
 # Initialize Starhip
 eval "$(starship init bash)"
 
